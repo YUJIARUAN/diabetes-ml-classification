@@ -312,4 +312,72 @@ python diabetes/run.py
 
 The script performs data preprocessing, trains the classification models, evaluates their performance, and generates results in the configured output directories.
 
-**Important:** These reproduction instructions assume that the script has been updated to use the English dataset filename and the directory structure described
+**Important:** These reproduction instructions assume that the script has been updated to use the English dataset filename and the directory structure described above.
+
+## 11. Limitations
+
+Several limitations should be considered when interpreting the findings.
+
+**Small Sample Size**
+
+The dataset contains only 520 observations, limiting the strength of conclusions regarding generalizability.
+
+**Potential Selection Bias**
+
+The data were collected using questionnaires in a clinical setting and may not represent the general population.
+
+**Limited External Validity**
+
+No independent external clinical dataset was used to validate model performance.
+
+**Potential Repeated Feature Patterns**
+
+Identical or highly similar feature patterns may occur across observations, potentially affecting the interpretation of internal evaluation results.
+
+**Lack of Longitudinal Outcomes**
+
+The target variable represents diabetes classification status rather than a prospectively observed future diagnosis.
+
+**No Causal Inference**
+
+Neither model coefficients nor feature importance estimates establish causal relationships between symptoms and disease.
+
+**Clinical Application**
+
+The trained models are intended for educational exploration and are not suitable for clinical diagnosis or medical decision-making without substantially more rigorous validation.
+
+## 12. Learning Outcomes and Future Directions
+
+Through this project, I gained practical experience in applying statistical and machine learning techniques to health-related data.
+
+The project helped me understand how data preprocessing, model selection, evaluation metrics, and interpretability influence the reliability of classification systems.
+
+It also highlighted the importance of distinguishing predictive accuracy from clinical validity.
+
+Building on my undergraduate background in Food Quality and Safety, I am interested in extending these methodological skills to interdisciplinary research involving nutritional information, clinical measurements, and data-driven precision health.
+
+Potential future directions include:
+
+- External validation using independent clinical datasets
+- Model calibration and classification threshold analysis
+- More robust evaluation of repeated observations and dataset shift
+- Integration of nutritional and clinical data when appropriately linked data become available
+- Exploration of interpretable machine learning methods for precision health research
+
+## 13. References and Data Acknowledgement
+
+**Data Source**
+
+UCI Machine Learning Repository. *Early Stage Diabetes Risk Prediction Dataset.*
+
+https://archive.ics.uci.edu/dataset/529/early+stage+diabetes+risk+prediction+dataset
+
+Please consult the original repository entry for the dataset authors, associated publication, licensing information, and recommended academic citation.
+
+---
+
+**Project Type:** Independent Learning Project
+
+**Research Area:** Medical Artificial Intelligence, Clinical Data Analysis, Machine Learning
+
+**Disclaimer:** This repository is intended solely for educational and research training purposes. It does not provide a clinically validated diagnostic system.
