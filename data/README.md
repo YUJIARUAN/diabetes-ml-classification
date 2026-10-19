@@ -146,7 +146,7 @@ However, clinical utility cannot be established from these metrics alone.
 | Precision | 0.9831 | 0.9841 |
 | Recall | 0.9062 | 0.9688 |
 | F1-score | 0.9431 | 0.9764 |
-| ROC-AUC | 0.9902 | 0.9992 |
+| ROC-AUC | 0.9902 | 0.9984 |
 
 Random Forest achieved higher Accuracy, Recall, F1-score, and ROC-AUC than Logistic Regression on the held-out test set.
 
